@@ -1,0 +1,28 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+    color: #d4d5db;
+}
+
+#game {
+    display: flex;
+    margin: auto;
+    width: 400px;
+    height: 400px;
+    background-color: rgb(25, 146, 100);
+    flex-wrap: wrap;
+}
+
+.game-cell {
+    width: 98px;
+    height: 98px;
+    border: 1px solid white;
+}
+
+.picture {
+    background-image: url('../img/goblin.png');
+    background-repeat: no-repeat;
+    background-position: center;
+}
